@@ -1,0 +1,44 @@
+{
+  "lookback_hours": 72,
+  "max_rpc_calls_per_chain": 150,
+  "sqlite_path": "data/swaps.db",
+
+  "chains": [
+    {
+      "name": "ethereum",
+      "block_time_seconds": 12,
+      "rpc_endpoints": [
+        "https://rpc.ankr.com/eth/KeyGoesHere",
+        "https://ethereum-rpc.publicnode.com",
+        "https://1rpc.io/eth"
+      ],
+      "pool_address": "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+      "swap_event_topic0": "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
+      "token0_symbol": "USDC",
+      "token0_decimals": 6,
+      "token1_symbol": "WETH",
+      "token1_decimals": 18,
+      "token0_is_base": false,
+      "getlogs_max_block_range": 2000
+    },
+    {
+      "name": "bsc",
+      "block_time_seconds": 0.45,
+      "rpc_endpoints": [
+        "https://rpc.ankr.com/bsc/KeyGoesHere",
+        "https://bsc-dataseed.binance.org",
+        "https://bsc-dataseed1.defibit.io",
+        "https://bsc-dataseed1.ninicoin.io"
+      ],
+      "pool_address": "0x539e0EBfffd39e54A0f7E5F8FEc40ade7933A664",
+      "swap_event_topic0": "0x19b47279256b2a23a1665c810c8d55a1758940ee09377d4f8d26497a3577dc83",
+      "token0_symbol": "ETH",
+      "token0_decimals": 18,
+      "token1_symbol": "USDC",
+      "token1_decimals": 18,
+      "token0_is_base": true,
+      "lookback_hours": 12,
+      "getlogs_max_block_range": 1000
+    }
+  ]
+}

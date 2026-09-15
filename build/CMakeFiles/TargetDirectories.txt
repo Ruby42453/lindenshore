@@ -1,0 +1,3 @@
+/mnt/c/Users/Josh/Desktop/lindenshore-blockchain-discovery/build/CMakeFiles/discover.dir
+/mnt/c/Users/Josh/Desktop/lindenshore-blockchain-discovery/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Josh/Desktop/lindenshore-blockchain-discovery/build/CMakeFiles/rebuild_cache.dir

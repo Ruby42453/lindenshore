@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 CMakeFiles/discover.dir/src/main.cpp.o CMakeFiles/discover.dir/src/rpc_client.cpp.o CMakeFiles/discover.dir/src/log_decoder.cpp.o CMakeFiles/discover.dir/src/db.cpp.o CMakeFiles/discover.dir/src/analysis.cpp.o -o discover  /usr/lib/x86_64-linux-gnu/libcurl.so /usr/lib/x86_64-linux-gnu/libsqlite3.so 
